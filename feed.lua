@@ -55,22 +55,16 @@ local ITEM_KEYS = {
     ["Silver"] = "Silver",
     ["Gold"] = "Gold",
     ["Diamond"] = "Diamond",
-    ["Star Egg"] = "Star" ,
-    ["Bitterberry"] = "Bitterberry",
-    ["Neonberry"] = "Neonberry",
-    ["Gingerbread Bear"] = "GingerbreadBear"
+    ["Star Egg"] = "Star"
 }
 
 local BOND_ITEMS = {
+    { Name = "Moon Charm", Value = 250 },
     { Name = "Pineapple", Value = 50 },
     { Name = "Strawberry", Value = 50 },
     { Name = "Blueberry", Value = 50 },
     { Name = "Sunflower Seed", Value = 50 },
     { Name = "Treat", Value = 10 }
-    { Name = "Neonberry", Value = 500 },
-    { Name = "MoonCharm", Value = 250 },
-    { Name = "GingerbreadBear", Value = 250 },
-    { Name = "Bitterberry", Value = 100 }
 }
 
 local Inventory = {}
